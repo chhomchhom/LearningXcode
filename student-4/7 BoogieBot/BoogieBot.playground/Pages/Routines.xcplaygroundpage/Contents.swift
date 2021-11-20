@@ -9,6 +9,11 @@ func doTheDisco() {
     leftArmUp()
     shakeItRight()
     leftArmDown()
+    
+    rightArmUp()
+    shakeItLeft()
+    rightArmDown()
+    
     shakeItCenter()
 }
 /*:

@@ -16,7 +16,7 @@ startRecording()
 */
 // If you're going to send it, sign it.
 setBotTitle("The next dance craze")
-setBotSubtitle("You saw it here first!")
+setBotSubtitle("By Virack Chhom")
 // Start the dance!
 fabulize()
 leftArmUp()

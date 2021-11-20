@@ -17,7 +17,23 @@
  `setBotSubtitle("By The Boogiemaster")`
 */
 startBot()
+setBotTitle("What's gucci?")
+setBotSubtitle("By VirackChhom")
 startRecording()
+
+fabulize()
+fabulize()
+
+leftArmUp()
+
+rightLegUp()
+rightLegDown()
+rightLegUp()
+rightLegDown()
+rightLegUp()
+rightLegDown()
+
+fabulize()
 
 
 

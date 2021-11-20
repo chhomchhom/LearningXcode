@@ -4,6 +4,7 @@
  To set BoogieBot up to get ready to dance, you use this line of code:
 */
 startBot()
+
 /*:
  BoogieBot can do these moves:
  - `leftArmUp()`, `leftArmDown()`, `rightArmUp()`, `rightArmDown()`
@@ -29,14 +30,14 @@ fabulize()
 fabulize()
 leftArmUp()
 rightArmUp()
-
-leftLegUp()
-rightLegUp()
-leftLegDown()
-rightLegDown()
-shakeItLeft()
-shakeItRight()
-shakeItCenter()
+//
+//leftLegUp()
+//rightLegUp()
+//leftLegDown()
+//rightLegDown()
+//shakeItLeft()
+//shakeItRight()
+//shakeItCenter()
 jumpUp()
 jumpDown()
 
