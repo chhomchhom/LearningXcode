@@ -9,11 +9,12 @@
  
  Write out the song or meme using `print` statements, then look for patterns and repetition and choose groups of lines to combine into functions. This is a free-form exercise, so you can do whatever you like.
 */
+func justTheTwoOfUs(){
+    print("Just the two of us!")
+}
 
 
-
-
-
+justTheTwoOfUs()
 
 
 
