@@ -5,26 +5,22 @@
 No.
 
 Sometimes you'll write code that's expecting the world to be a certain way. Imagine you ask a friend what they'd like to drink, and then you start working really hard to deliver it.*/
-var friendBeverageChoice = "coffee"
+let friendBeverageChoice = "coffee"
 
 driveAcrossTown()
 buyACoffeeMaker()
 /*:
  Depending how long you're gone for, you have no way of knowing whether your friend will change their mind before you get back.
  */
-friendBeverageChoice = "tea"
 
 findCoffeeGrinder()
 
-friendBeverageChoice = "water"
-friendBeverageChoice = "sparkling water"
-friendBeverageChoice = "plain water"
+
 
 findCoffeeBeans()
 driveHome()
 setUpCoffeeGrinder()
 
-friendBeverageChoice = "nothing 😴"
 
 grindBeans()
 makeFriendDrinkCoffee()
