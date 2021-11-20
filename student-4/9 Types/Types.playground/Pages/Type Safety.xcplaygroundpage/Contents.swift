@@ -23,9 +23,9 @@
  - callout(Exercise): Write some more incorrect addition statements. Before you write each line, try to guess what errors will be produced. Remember to comment out the lines of code from the earlier experiment first.
  */
 
+22 + "33"
 
-
-
+"" + 1
 
 
 
