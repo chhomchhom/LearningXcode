@@ -13,15 +13,21 @@
  \
  Remember that `->` is used to say that a function returns a value.
 */
-
+func makeFavourite(categoryOfThings: String, favourite: String) -> String {
+    
+    return ("My fovourite \(categoryOfThings) is \(favourite)")
+    
+}
 
 
 //: - experiment: Call your new function a few times with some different categories, assigning each result to a different constant. Why not try categories like food, movie, school subject or band?
-
-
+let favouriteCar = makeFavourite(categoryOfThings: "car", favourite: "Genesis Coupe")
+print(favouriteCar)
+let favouriteLaptop = makeFavourite(categoryOfThings: "laptop", favourite: "Macbook Pro 14inch 2021")
+print(favouriteLaptop)
 //: - callout(Exercise): Now that you have your results, you can use string interpolation to combine them into a self-introduction. Yours might look something like this:\
 //: `"Hello, my name is Euna. \(favoriteFood) \(favoriteVideoStar) ..."`
-
+print("Hello, my name is Virack. \(favouriteCar) and \(favouriteLaptop)")
 
 //: Next, learn when to use parameters and return values and when not to.
 //:
