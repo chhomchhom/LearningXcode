@@ -28,7 +28,10 @@ hundred == tenTimesTen
 hundred == nineTimesTen
 //: - Experiment: Try some comparisons of your own. Can you check if two string values are equal?
 
+let stringOne = "stringOne"
+let stringTwo = "stringTwo"
 
+stringOne == stringTwo
 
 
 
