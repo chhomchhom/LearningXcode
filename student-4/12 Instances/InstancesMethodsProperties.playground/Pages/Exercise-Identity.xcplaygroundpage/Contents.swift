@@ -11,21 +11,31 @@ Check the values of `myPlans` and `friendPlans`. Are they the same or different?
  */
 // Create your variables here:
 
+var myPlan = "I am going to the gym after learning some more Swift"
+var friendPlans = myPlan
 
 
 // Update `myPlans` here:
+myPlan +=  " Then I go find groceries"
 
 
-
-
+print(myPlan)
+print(friendPlans)
 /*:
  - callout(Exercise):
  Create a function `addDance` that takes a string, appends a phrase about dancing (like `"and then we dance!"` or `"but no dancing"`, according to your taste), and returns the new string.\
 Call the `addDance` function on `myPlans`, and assign the result to `friendPlans`.
  */
 // Define and call your function here:
+func addDance(originalString: String, yesNo: Bool) -> String {
+    if yesNo == true {
+        return originalString + " and then we dance!"
+    }else {
+        return originalString + " but no dancing"
+    }
+}
 
-
+print(addDance(originalString: myPlan, yesNo: true))
 
 
 /*:
@@ -35,6 +45,8 @@ Call the `addDance` function on `myPlans`, and assign the result to `friendPlans
  */
 // Check your guess by printing here:
 
+print(addDance(originalString: myPlan, yesNo: true))
+print(addDance(originalString: friendPlans, yesNo: true))
 
 
 
